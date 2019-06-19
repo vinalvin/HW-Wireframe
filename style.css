@@ -1,10 +1,49 @@
-#container {
+body {
+    padding: 20px;
     background-color: #777;
-    font-family:"Arial""Helvetica Neue";
-    width:"960px"   
+    font-family: Arial, Helvetica Neue, helvetica, sans-serif;
+    width:"960px";
+    font-size: 18px;
+    text-align: center;   
 }
 
-h2 {
-    color:"#ebebeb";
-    background:"#777"
+header, nav, section, aside, footer {
+    display: inline-block;
+    margin: 10px auto;
+    width: 100%;
+    background: #ebebeb;
+}
+
+header, nav, footer {
+    line-height: 100px;
+}
+
+section {
+    float: left;
+    width: 460px;
+}
+
+aside {
+    float: right;
+    width: 405px;
+    line-height: 200px;
+}
+
+section, aside {
+    height: 200px;
+}
+
+article {
+    margin: 20px auto;
+    padding-bottom: 20px;
+    width: 90%;
+    color: #ebebeb;
+    background: #777;
+}
+
+h2, p {
+    margin: 10px auto;
+    width: 90%;
+    color: #777;
+    background: #ebebeb;
 }
