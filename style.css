@@ -26,15 +26,16 @@ section {
 aside {
     float: right;
     width: 410px;
-    line-height: 200px;
 }
 
 section, aside {
-    height: 200px;
+    height: 240px;
+    padding-top: 25px;
 }
 
 article {
     margin: 20px auto;
+    padding-top: 25px;
     padding-bottom: 20px;
     width: 90%;
     color: #ebebeb;
@@ -46,4 +47,5 @@ p {
     width: 90%;
     color: #777;
     background: #ebebeb;
+    line-height: 35px;
 }
